@@ -22,7 +22,7 @@ export default class Comment extends React.Component {
             <div className="card-footer">
                 <LikeButton />
                 <ReplyButton />
-                <Comment {...commentOne}/>
+                {/*<Comment {...commentOne}/>*/}
             </div>
           </div>
         );

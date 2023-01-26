@@ -8,11 +8,7 @@ let e = React.createElement;
 
 export default class Post extends React.Component {
    render() {
-    let commentOne = {
-      content: 'This is my post',
-      username: 'Joe',
-      data: '1-25-2023'
-    };
+ 
     return(
         <div className="card w-75">
             <div className="card-header bg-primary text-white">
@@ -24,7 +20,7 @@ export default class Post extends React.Component {
             <div className="card-footer">
                 <LikeButton />
                 <ReplyButton />
-                <Comment {...commentOne}/>
+                <Comment content="This is my post"/>
               
             </div>
         </div>
